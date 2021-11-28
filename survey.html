@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = 'utf-8'/>
+		<title>Self-Assessment Survey</title>
+		<style>
+			body {
+				background-color: #1c87c9;
+				font-family: Verdana;
+				color: white;
+				text-align: center;
+			}
+			form {
+				background-color: #8ebf42;
+				max-width: 500px;
+				margin: 50px auto;
+				padding: 30px 20px;
+				box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+			}
+			.form-control {
+				text-align: left;
+				margin-bottom: 25px;
+			}
+			.form-control label {
+				display: block;
+				margin-bottom: 10px;
+			}
+			.form-control select{
+				border: 1px solid #777;
+				border-radius: 2px;
+				font-family: inherit;
+				padding: 10px;
+				display: block;
+				width: 95%;
+			}
+			a{
+				border-style: solid;
+				border-color: black;
+				margin-top: 17vh;
+				padding: .75vh;
+				font-size: 4vh;
+				text-decoration:none;
+				margin-left:0vh;
+				margin-right:0;
+				background-color: #8ebf42;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Self-Assessment Survey</h1>
+		<p>Welcome to the self-assessment survey. Please answer all of the questions to the best of your ability because they are the best way we at MentalConnect can help you.</p>
+		<form id="form">
+			<div class = "form-control">
+				<label for="scale" id="label-scale">
+					How sad are you on a scale from 1-5?
+				</label>
+				<select name="scale" id="scale">
+					<option value = "select">--select--</option>
+					<option value = "one">1</option>
+					<option value = "two">2</option>
+					<option value = "three">3</option>
+					<option value = "four">4</option>
+					<option value = "five">5</option>
+				</select>
+			</div>
+		</form>
+		<a href = "conclusion.html">Submit</a>
+	</body>
+</html>
